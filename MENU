@@ -1,0 +1,10 @@
+public classe order {
+public static void dispalAvailableMenu (){
+system.out.printlin ("choix de menu:");
+system.out.printlin("1 - poulet");
+system.out.printlin("2 - boeuf");
+system.out.printlin("3 - vegitarien");
+system.out.printlin("quoivotre choix?");}
+public static void displaySelectedMenu(int nbMenu){
+int nbMenu=sc.nextint();
+system.out.printlin("vous avez choiser comme menu" +nbMenu);}}
